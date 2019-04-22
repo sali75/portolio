@@ -89,10 +89,7 @@ class Skills extends Component {
                     <wired-checkbox />
                     <h5 className="learn-title-three">Matreial ui </h5>
                   </div>
-                  <div className="current-ele">
-                    <wired-checkbox />
-                    <h5 className="learn-title-three">Postgresql </h5>
-                  </div>
+
                   <div className="current-ele">
                     <wired-checkbox />
                     <h5 className="learn-title-three">Vue.js </h5>
