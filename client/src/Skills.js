@@ -53,6 +53,10 @@ class Skills extends Component {
                 <div className="skill-name">B4A</div>
                 <wired-progress value="80" />
               </div>
+              <div className="skill-bar">
+                <div className="skill-name">B4J</div>
+                <wired-progress value="80" />
+              </div>
             </div>
           </Slide>
 
