@@ -10,7 +10,7 @@ app.use(express.static("www", { maxAge: onesecend })); // Client-side file cachi
 app.use(express.static(path.join(__dirname, "client/build")));
 
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname + "/client/build/index.html"));
+  res.sendFile(path.join(__dirname + "/client/build/index.html")).maxage(0);
 });
 
 const port = process.env.PORT || 5000;
