@@ -92,6 +92,11 @@ class Skills extends Component {
 
                   <div className="current-ele">
                     <wired-checkbox />
+                    <h5 className="learn-title-three">Next.js</h5>
+                  </div>
+
+                  <div className="current-ele">
+                    <wired-checkbox />
                     <h5 className="learn-title-three">Vue.js </h5>
                   </div>
                 </div>
