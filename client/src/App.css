@@ -1,0 +1,194 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #e9ecef;
+  margin: 0;
+  padding: 0;
+  font-family: "Boogaloo", cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Header */
+.header-container {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Boogaloo;
+}
+.heading {
+  padding: 0;
+  margin-left: 15px;
+  font-size: 2.3em;
+}
+.main-nav {
+  margin-right: 35px;
+}
+wired-button {
+  font-size: 1.3em;
+  display: inline-block;
+  text-align: center;
+  margin: 0 15px;
+  transition: all 0.2s ease-out;
+}
+wired-button:hover,
+:focus {
+  color: #18b309;
+}
+
+/* about */
+.about-container {
+  font-family: "Neucha", cursive;
+  font-weight: 500;
+  text-align: center;
+  padding: 10px;
+  margin: 30px 30px;
+  height: 70vh;
+  position: relative;
+}
+.about-email {
+  font-size: 1.7em;
+  font-family: Boogaloo;
+  color: #18b309;
+}
+.about-email:hover,
+:focus {
+  cursor: pointer;
+}
+.about-container::before {
+  content: "";
+  background: url("./images/08.jpg") no-repeat center center/cover;
+  background-attachment: fixed;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.about-container > p {
+  font-size: 1.6em;
+}
+.about-header {
+  font-size: 2em;
+  font-family: Boogaloo;
+}
+
+/* skills */
+
+@media only screen and (max-width: 600px) {
+  .skills {
+    flex-direction: column;
+  }
+}
+
+.skills {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Boogaloo", cursive;
+}
+.skills-title {
+  text-align: center;
+  font-size: 2.5em;
+  color: #18b309;
+  font-family: "Boogaloo", cursive;
+}
+.skills-container {
+  font-family: Boogaloo;
+  margin-left: 40px;
+  font-size: 1.4em;
+  font-family: "Boogaloo", cursive;
+}
+wired-progress {
+  height: 30px;
+  --wired-progress-color: #18b309;
+}
+.skill-name {
+  margin-bottom: 4px;
+  font-family: "Boogaloo", cursive;
+  font-size: 1.3em;
+}
+
+.learning {
+}
+.learn-wrapper {
+  display: flex;
+  align-items: center;
+}
+.current-ele {
+  display: flex;
+  align-items: center;
+}
+.learn-title {
+  font-size: 2em;
+  margin: 6px 0;
+}
+.learn-title-three {
+  font-size: 1.5em;
+  margin: 6px 6px;
+}
+wired-checkbox {
+  margin-top: 6px;
+  color: #18b309;
+}
+.learn-title-two {
+  font-size: 1.5em;
+  margin: 6px 6px;
+}
+.learning-b {
+  font-size: 1.3em;
+  margin: 10px 0;
+}
+
+/* footer */
+
+.footer-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-icon {
+  display: block;
+  margin: 10px;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+.footer-icon:hover,
+:focus {
+  transform: scale(1.2);
+}
+.icon-img {
+  width: 70px;
+  height: 65px;
+}
+.footer {
+  margin: 40px auto;
+  font-size: 1.5em;
+  text-align: center;
+  color: #18b309;
+  font-family: "Boogaloo", cursive;
+}
+.footer-header {
+  font-size: 1.6em;
+  margin: 20px 0;
+  font-family: "Boogaloo", cursive;
+}
+.footer-text {
+  font-size: 1.2em;
+  margin-bottom: 0;
+  margin-top: 10px;
+  font-family: "Boogaloo", cursive;
+}
