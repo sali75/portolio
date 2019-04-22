@@ -79,7 +79,7 @@ class Skills extends Component {
                 <div className="current-wrapper">
                   <div className="current-ele">
                     <wired-checkbox />
-                    <h5 className="learn-title-three">Mareial ui </h5>
+                    <h5 className="learn-title-three">Matreial ui </h5>
                   </div>
                   <div className="current-ele">
                     <wired-checkbox />
