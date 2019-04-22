@@ -5,7 +5,7 @@ const app = express();
 const oneHour = 3600000; // 3600000msec == 1hour
 const onesecend = 1000;
 
-server.use(express.static("www", { maxAge: onesecend })); // Client-side file caching
+app.use(express.static("www", { maxAge: onesecend })); // Client-side file caching
 
 app.use(express.static(path.join(__dirname, "client/build")));
 
