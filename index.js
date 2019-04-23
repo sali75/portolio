@@ -2,10 +2,10 @@ const express = require("express");
 const path = require("path");
 
 const app = express();
-const oneHour = 3600000; // 3600000msec == 1hour
-const onesecend = 1000;
+// const oneHour = 3600000; // 3600000msec == 1hour
+// const onesecend = 1000;
 
-app.use(express.static(__dirname, { maxAge: onesecend })); // Client-side file caching
+// app.use(express.static(__dirname, { maxAge: onesecend })); // Client-side file caching
 
 app.use(express.static(path.join(__dirname, "client/build")));
 
